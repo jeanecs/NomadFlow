@@ -6,6 +6,10 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export interface HealthStatus {
-  status: string;
+export interface CreateTripInput {
+  name: string;
+  destination: string;
+  startDate: Date;
+  endDate: Date;
+  coverColor: string;
 }
